@@ -1,0 +1,27 @@
+{
+  "direction": "Fieldwork Passport",
+  "tokens": {
+    "color": {
+      "pine": "#183B36",
+      "paper": "#F4F0E4",
+      "ink": "#202B2B",
+      "muted": "#677572",
+      "vermilion": "#C65B43",
+      "amber": "#D99A36",
+      "healthy": "#3B8064",
+      "light": "#4D7FA2"
+    },
+    "motion": {
+      "feedbackMs": 180,
+      "layoutMs": 240,
+      "reducedMotion": "remove spatial motion; preserve clear state change"
+    },
+    "type": {
+      "interface": "system sans-serif",
+      "readings": "tabular numerals"
+    },
+    "density": "compact but breathable; labels, units, axes, and legends remain visible"
+  },
+  "signature": "a verified milestone settles as a small evidence-linked stamp"
+}
+

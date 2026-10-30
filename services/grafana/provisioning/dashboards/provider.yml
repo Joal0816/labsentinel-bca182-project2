@@ -1,0 +1,11 @@
+apiVersion: 1
+providers:
+  - name: LabSentinel
+    orgId: 1
+    folder: BCA182
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards
+

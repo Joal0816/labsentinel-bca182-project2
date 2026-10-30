@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+services/mosquitto/passwd
+firmware/include/secrets.local.h
+node_modules/
+.vercel/
+.impeccable/build/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+BCA182 - Project 2.pdf
+services/gateway/.venv/
+services/gateway/__pycache__/
+services/gateway/.pytest_cache/
+.pio/
+firmware/.pio/
+*.py[cod]
+*.log
+evidence/live/
+evidence/tmp/
+grafana/data/
+influxdb/data/
+mosquitto/data/
+mosquitto/log/
+__pycache__/
+

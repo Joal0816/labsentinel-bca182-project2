@@ -1,0 +1,12 @@
+user lab-sentinel-service
+topic read bca182/+/+/telemetry
+topic read bca182/+/+/status
+topic read bca182/+/+/ack
+topic write bca182/+/+/cmd/indicator
+
+user lab-sentinel-device
+topic write bca182/+/+/telemetry
+topic write bca182/+/+/status
+topic write bca182/+/+/ack
+topic read bca182/+/+/cmd/indicator
+
