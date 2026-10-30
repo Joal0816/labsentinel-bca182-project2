@@ -32,13 +32,13 @@ The gateway and dashboards are intended for a trusted local network. Configure a
 
 The interactive, demo-only dashboard is live at <https://labsentinel.vercel.app>. It uses illustrative readings and simulated controls; it does not connect to the board or local gateway.
 
-To use `labsentinel.joalvergs.tech`, add this record at the DNS provider for `joalvergs.tech` (currently Name.com):
+The recommended subdomain is `labsentinel.joalvergs.tech`. Vercel currently accepts the existing A record, but its project-specific domain verification recommends this CNAME at the DNS provider for `joalvergs.tech` (currently Name.com):
 
 | Type | Host | Value |
 | --- | --- | --- |
-| A | `labsentinel` | `76.76.21.21` |
+| CNAME | `labsentinel` | `667c967c3a0567e9.vercel-dns-017.com.` |
 
-After DNS propagates, Vercel can issue the certificate and the custom URL will route to the demo. The actual-data version remains local and requires a configured gateway and the verified RT-Spark hardware.
+If switching from the A record, remove it before adding the CNAME; do not publish both record types for the same host. Keep the provider's default TTL (300 seconds at Name.com). The public URL stays `https://labsentinel.joalvergs.tech`. The actual-data version remains local and requires a configured gateway and the verified RT-Spark hardware.
 
 ## Firmware
 
